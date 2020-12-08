@@ -15,18 +15,15 @@ class Header extends Component {
 			
 			case false:
 			
-			return (
-			
-			<li><a href="/auth/google">login with google</a></li>
-			);
-			
+			return <li><a href="/auth/google">login with google</a></li>;
+						
 			default: 
 			
 			return [
 			
+			<li><Payments /></li>,
 			
-			<li> <Payments /></li>,
-			
+
 			<li><a href="/api/logout">logout</a></li>
 			
 			];
@@ -45,9 +42,7 @@ class Header extends Component {
 	<Link 
 	to={this.props.auth ? '/surveys' : '/'} 
 	
-	className="left brand-logo"
-	
-	>	
+	className="left brand-logo">	
 	    Emaily
 	</Link>
 	
