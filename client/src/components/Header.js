@@ -21,10 +21,10 @@ class Header extends Component {
 			
 			return [
 			
-			<li><Payments /></li>,
+			<li key="1"><Payments /></li>,
 			
 
-			<li><a href="/api/logout">logout</a></li>
+			<li key="2"><a href="/api/logout">logout</a></li>
 			
 			];
 			
