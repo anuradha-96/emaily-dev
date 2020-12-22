@@ -6,6 +6,6 @@ module.exports = {
 	mongoURI: 'mongodb+srv://p00gz:PF9Ms6HayftCmiD1@emaily.2s4ml.mongodb.net/test?retryWrites=true&w=majority',
 	cookieKey: 'dghfhgvhvhvhvhgvhvhvhvhvjvjvytsuyefsdfbhbdjhfdh',
 	stripePublishableKey: 'redacted',
-  stripeSecretKey: 'redacted',
+    stripeSecretKey: 'redacted'
 
 };
