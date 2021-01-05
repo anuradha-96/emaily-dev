@@ -8,5 +8,5 @@ module.exports = {
 	stripePublishableKey: 'pk_test_51I4lncLt8MzVkUwoJ4nKSNNvW9w9U45bXSdJvJVpSPR4XijulHZQbuMBFKKEeXNwzKdXiwUhqZ0CXLMW6SqBtbsQ00mIZnLcV4',
     stripeSecretKey: 'sk_test_51I4lncLt8MzVkUwoGy5VqmozvCubCds4okwfzvcLkvPxhsv97nSOBaguVvlNbfA2LwkBc6LgUVlYXK81oIk6vBUw005dleCNpf',
 	sendGridKey: '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'
-    
+   
 };
